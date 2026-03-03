@@ -16,7 +16,14 @@
       perSystem = {pkgs, ...}: {
         devShells.default = pkgs.mkShell {
           formatter = pkgs.nixfmt;
-          packages = [];
+          packages = [
+            (
+              with pkgs.dotnetCorePackages;
+                combinePackages [
+                  sdk_10_0
+                ]
+            )
+          ];
         };
       };
     };
