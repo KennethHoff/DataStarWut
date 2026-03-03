@@ -1,5 +1,25 @@
 {
   "nodes": {
+    "aspire-cli": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1772576631,
+        "narHash": "sha256-VRvU2Z1jwLdowxqldfz7MBgrxs7acgAOotJokW96r2Y=",
+        "owner": "kennethhoff",
+        "repo": "aspire-cli-flake",
+        "rev": "de4050cce85b931c899516f287bb616427a1eeac",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kennethhoff",
+        "repo": "aspire-cli-flake",
+        "type": "github"
+      }
+    },
     "flake-parts": {
       "inputs": {
         "nixpkgs-lib": "nixpkgs-lib"
@@ -51,6 +71,7 @@
     },
     "root": {
       "inputs": {
+        "aspire-cli": "aspire-cli",
         "flake-parts": "flake-parts",
         "nixpkgs": "nixpkgs"
       }
