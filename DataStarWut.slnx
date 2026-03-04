@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/solution items/">
+          <File Path="./Directory.Build.props" />
+  </Folder>
+  <Folder Name="/aspire/">
+          <Project Path="./aspire/DataStarWut.AppHost.csproj" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/tests/" />
+</Solution>
