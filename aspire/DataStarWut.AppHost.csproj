@@ -1,5 +1,9 @@
 <Project Sdk="Aspire.AppHost.Sdk/13.1.2">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
+    <NoWarn>
+            $(NoWarn);
+            ASPIRECSHARPAPPS001; <!-- AddCSharpApp is experimental -->
+    </NoWarn>
   </PropertyGroup>
 </Project>
